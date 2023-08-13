@@ -4,10 +4,11 @@ import UseEffectHook from "@/components/UseEffectHook";
 import UseRefHook from "@/components/UseRefHook";
 
 import UseLayoutHook from "@/components/UseLayoutHook";
+import UseImperativeHandleHook from "@/components/UseImperativeHandleHook";
 
 function index() {
   return (
-    <div>
+    <div className="text-black bg-white">
       <UseReducerHook />
       {/* <UseEffectHook /> */}
 
@@ -15,6 +16,8 @@ function index() {
 
       {/* <Input /> */}
       <UseLayoutHook />
+
+      <UseImperativeHandleHook />
     </div>
   );
 }
